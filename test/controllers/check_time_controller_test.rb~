@@ -1,0 +1,9 @@
+require 'test_helper'
+
+class CheckTimeControllerTest < ActionDispatch::IntegrationTest
+  test "should get now" do
+    get check_time_now_url
+    assert_response :success
+  end
+
+end
