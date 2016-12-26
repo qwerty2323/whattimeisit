@@ -1,2 +1,0 @@
-<h1>CheckTime#now</h1>
-Right now it is <%= Time.now %>
